@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/halibal.github.io/my-game-journal/static/css/main.4511651b.css",
+    "main.js": "/halibal.github.io/my-game-journal/static/js/main.a4403b9a.js",
+    "static/js/787.3678a012.chunk.js": "/halibal.github.io/my-game-journal/static/js/787.3678a012.chunk.js",
+    "static/media/chivalry_2.png": "/halibal.github.io/my-game-journal/static/media/chivalry_2.4dc49ddbd443e8bb19b8.png",
+    "static/media/horizon_zero_dawn.png": "/halibal.github.io/my-game-journal/static/media/horizon_zero_dawn.98941862a41a47a50ad5.png",
+    "static/media/it_takes_two.png": "/halibal.github.io/my-game-journal/static/media/it_takes_two.9b331140673e130fa4e0.png",
+    "index.html": "/halibal.github.io/my-game-journal/index.html",
+    "main.4511651b.css.map": "/halibal.github.io/my-game-journal/static/css/main.4511651b.css.map",
+    "main.a4403b9a.js.map": "/halibal.github.io/my-game-journal/static/js/main.a4403b9a.js.map",
+    "787.3678a012.chunk.js.map": "/halibal.github.io/my-game-journal/static/js/787.3678a012.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4511651b.css",
+    "static/js/main.a4403b9a.js"
+  ]
+}
