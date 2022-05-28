@@ -2,7 +2,7 @@ const myData = [
     {
         id: 1,
         title: 'Horizon Zero Dawn',
-        cardImage: require("./img/horizon_zero_dawn.png"),
+        cardImage: require("../public/img/horizon_zero_dawn.png"),
         developer: 'Guerilla Games',
         developerURL: "https://www.guerrilla-games.com",
         url: 'https://store.steampowered.com/app/1151640/Horizon_Zero_Dawn_Complete_Edition/',
@@ -13,7 +13,7 @@ const myData = [
     {
         id: 2,
         title: 'It Takes Two',
-        cardImage: require("./img/it_takes_two.png"),
+        cardImage: require("../public/img/it_takes_two.png"),
         developer: 'Hazelight Studios',
         developerURL: "https://www.hazelight.se",
         url: 'https://store.steampowered.com/app/1426210/It_Takes_Two/',
@@ -24,7 +24,7 @@ const myData = [
     {
         id: 3,
         title: 'Chivalry 2',
-        cardImage: require("./img/chivalry_2.png"),
+        cardImage: require("../public/img/chivalry_2.png"),
         developer: 'Torn Banner Studios',
         developerURL: "http://tornbanner.com",
         url: 'https://store.steampowered.com/app/1824220/Chivalry_2/',
