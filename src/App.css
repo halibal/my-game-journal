@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
+.App .content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 7%;
+	margin-bottom: 7%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Navigation panel */
+
+.App nav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 70px;
+	background-color: rgb(255, 106, 106);
+	color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App nav a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App .fontawesome-icon {
+	margin-right: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Cards */
+
+.App .card-body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	max-width: 850px;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App .card-image-container {
+	width: 90%;
+}
+
+.App .card-image {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 1rem;
+	margin-bottom: 2.5%;
+}
+
+.App .card-content {
+	height: 300px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.App .card-content .developer {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.App .card-content .developer .developer-name {
+	color: black;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+.App .card-content .developer .game-link {
+	color: grey;
+}
+
+.App .card-content .developer .game-link:visited {
+	color: grey;
+}
+
+.App .card-content .card-title {
+	font-size: 2rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.App .card-content .release-date {
+	color: grey;
+}
+
+.App .card-content .short-description {
+	margin-top: 10px;
+}
+
+@media screen and (min-width: 820px) {
+	.App .card-body {
+		flex-direction: row;
+	}
+
+	.App .card-image {
+		height: 400px;
+		object-fit: cover;
+		border-radius: 1rem;
+	}
 }
