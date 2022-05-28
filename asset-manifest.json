@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/halibal.github.io/my-game-journal/static/css/main.4511651b.css",
-    "main.js": "/halibal.github.io/my-game-journal/static/js/main.69c5894a.js",
-    "static/js/787.3678a012.chunk.js": "/halibal.github.io/my-game-journal/static/js/787.3678a012.chunk.js",
-    "index.html": "/halibal.github.io/my-game-journal/index.html",
-    "main.4511651b.css.map": "/halibal.github.io/my-game-journal/static/css/main.4511651b.css.map",
-    "main.69c5894a.js.map": "/halibal.github.io/my-game-journal/static/js/main.69c5894a.js.map",
-    "787.3678a012.chunk.js.map": "/halibal.github.io/my-game-journal/static/js/787.3678a012.chunk.js.map"
+    "main.css": "/my-game-journal/static/css/main.4511651b.css",
+    "main.js": "/my-game-journal/static/js/main.32449118.js",
+    "static/js/787.3678a012.chunk.js": "/my-game-journal/static/js/787.3678a012.chunk.js",
+    "index.html": "/my-game-journal/index.html",
+    "main.4511651b.css.map": "/my-game-journal/static/css/main.4511651b.css.map",
+    "main.32449118.js.map": "/my-game-journal/static/js/main.32449118.js.map",
+    "787.3678a012.chunk.js.map": "/my-game-journal/static/js/787.3678a012.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4511651b.css",
-    "static/js/main.69c5894a.js"
+    "static/js/main.32449118.js"
   ]
 }
